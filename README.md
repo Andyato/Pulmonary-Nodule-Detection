@@ -53,11 +53,20 @@ The data is VOC format
   tensorboard --logdir=$ROOT/output/res**_summary/
   ```    
 
-![01](pictures/fast_rcnn_loss.png)   
+![01](pictures/fast_rcnn_loss.png)    
+
 ![02](pictures/rpn_loss.png)   
+
 ![03](pictures/total_loss.png)   
+
 
 ## Test results    
 ![04](pictures/gt_img.png)   
 
 ![05](pictures/test_img.png)   
+
+
+## Reference 
+1、[tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn)
+2、[FastMaskRCNN](https://github.com/CharlesShang/FastMaskRCNN)
+3、[object_detection](https://github.com/tensorflow/models/tree/master/research/object_detection)
